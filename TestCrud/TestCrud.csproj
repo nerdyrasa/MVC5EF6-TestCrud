@@ -191,6 +191,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\aspnet-TestCrud-20160901111211.mdf" />
+    <Content Include="App_Data\aspnet-TestCrud-20160901111211_log.ldf">
+      <DependentUpon>aspnet-TestCrud-20160901111211.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-readable.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -252,9 +256,7 @@
     <Content Include="Views\Things\Edit.cshtml" />
     <Content Include="Views\Things\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
