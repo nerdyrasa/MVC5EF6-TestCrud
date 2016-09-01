@@ -170,12 +170,17 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ThingsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201609011624568_AddThingModel.cs" />
     <Compile Include="Migrations\201609011624568_AddThingModel.Designer.cs">
       <DependentUpon>201609011624568_AddThingModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609011628421_ThisTimeReallyAddThingModel.cs" />
+    <Compile Include="Migrations\201609011628421_ThisTimeReallyAddThingModel.Designer.cs">
+      <DependentUpon>201609011628421_ThisTimeReallyAddThingModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -241,6 +246,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Things\Create.cshtml" />
+    <Content Include="Views\Things\Delete.cshtml" />
+    <Content Include="Views\Things\Details.cshtml" />
+    <Content Include="Views\Things\Edit.cshtml" />
+    <Content Include="Views\Things\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -256,6 +266,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201609011624568_AddThingModel.resx">
       <DependentUpon>201609011624568_AddThingModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609011628421_ThisTimeReallyAddThingModel.resx">
+      <DependentUpon>201609011628421_ThisTimeReallyAddThingModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
